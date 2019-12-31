@@ -16,7 +16,7 @@ RUN touch hola.txt
 #COPY maven.tar /datos
 
 ###ADD###
-ADD docs docs
+#ADD docs docs
 ADD f* /datos/
 
 ###ENV###
